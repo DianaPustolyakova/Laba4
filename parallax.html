@@ -11,6 +11,7 @@ body
     color: black;
     margin: 0;
     background: url(https://www.hdnicewallpapers.com/Walls/Big/Love%20Heart/Cup_in_Creative_Coffee_Heart_4K_Love_Wallpaper.jpg);
+    background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,8 +47,6 @@ p
   font-weight: bold;
   font-style: italic;
   font-size: 38px;
-}
-
 }
 a
 {
@@ -148,7 +147,7 @@ header a:hover {
 }
 
 .coffeesection_block {
-  width: 375px;
+  width: 48%;
   text-align: center;
 }
 
@@ -157,7 +156,26 @@ header a:hover {
   height: auto;
 
 }
+h3 {
+  display: block;
+  color: white;
+  background-color: rgba(94, 57, 18, 0.46);
 }
+@media screen and (max-width: 768px){
+  .intro {
+    height: 100vh;
+  }
+  .intro__inner {
+    padding-top: 100px;
+  }
+  .header__inner {
+    padding-top: 20px;
+  }
+  body {
+    background-attachment: scroll;
+  }
+}
+
     </style>
   </head>
   <body>
